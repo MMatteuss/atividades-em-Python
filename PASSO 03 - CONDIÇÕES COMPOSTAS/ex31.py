@@ -1,7 +1,6 @@
 import random
 import time
 
-
 # ----- Variável game --------
 i = str("s")
 pontosEu = int(0)
@@ -77,9 +76,7 @@ while(i == "s" or i == "sim"):
         print("----- VOCÊ PERDEU -----")
         pontosMaquina = pontosMaquina+1
     
-    # tempo
     time.sleep(1)
-    
     print("-"*22)
     
     verPlacar = str(input("Deseja ver o placar? [s,n]: "))
